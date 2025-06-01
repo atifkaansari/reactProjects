@@ -1,0 +1,68 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('/download.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.home::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.25);
+    z-index: -1;
+}
+
+.homeContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.homeText {
+    color: white;
+    text-align: center;
+}
+
+.homeText>p {
+    font-family: "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-style: italic;
+    font-size: large;
+    margin: 0;
+}
+
+.homeText>h1 {
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.homeButton {
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: #36b3a8;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.homeButton:hover {
+    background-color: #2d958d;
+}
+
+.scrollButton {
+    position: absolute;
+    bottom: 30px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.scrollButton:hover {
+    transform: translateY(5px);
+}
