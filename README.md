@@ -6,7 +6,6 @@ Her hafta bir tema seçerek React öğrenmeye devam ediyorum. Bu repo, hem yapt�
 
 - Temel React konularını parça parça öğrenmek
 - Her konuyu bir veya birkaç küçük projeyle pekiştirmek
-- Zamanla TypeScript, test ve performans optimizasyonlarına geçmek
 
 ## 📅 Haftalık Temalar
 
